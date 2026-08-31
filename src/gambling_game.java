@@ -29,7 +29,7 @@ public class gambling_game {
                 System.out.println("machine is running...");
                 char [] result = new char[3];
                 for(int i = 0; i<=2;i++){
-                    char res = machine[random.nextInt(2)];
+                    char res = machine[random.nextInt(3)];
                     result[i] = res;
                     System.out.print(res+ " | ");
                 }
